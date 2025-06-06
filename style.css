@@ -1,0 +1,259 @@
+/*
+Black - Jet Black	#121212	Deep black for text and contrast
+White - Soft White	#FFFFFF	Clean and neutral for background or highlights
+Light Grey - Mist Grey	#E6E6E6	Subtle grey for UI elements and balance
+Dark Grey - Graphite Grey	#4B4B4B	For headers, icons, and depth
+Colour 1 - Sunset Coral	#FF6B5A	A warm, inviting coral tone that suggests adventure and passion
+Colour 2 - Golden Sand	#F4B942	Evokes warmth, sunshine, and the golden hour, great for call-to-actions
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+p {
+font-size: 25px;
+}
+
+body {
+  background-color: #FFFFFF;  /* Soft White */
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    gap: 30px; 
+    padding: 20px 0;
+    background-color: #E6E6E6; /* Mist Grey */
+    border-top: 2px solid #4B4B4B; /* Graphite Grey */ 
+    height: auto; 
+}
+
+#footer img {
+    width: 60px; 
+    height: auto;
+}
+
+.navbar {
+  display: flex;
+  background-color: #F4B942;
+  padding: 10px;
+  border:  solid #FF6B5A;
+  height: 100px;
+  align-items: center;
+}
+
+.link {
+  color: #121212; /* Jet Black */
+  text-decoration: none; 
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.home-image{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+   
+}
+.home-image img {
+  display: flex;
+  width: 50%;
+  border: #121212 solid 2px;
+  }
+
+.text-center {
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  margin: 50px; 
+  background-color: #F4B942;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #121212;
+  margin: 50px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.home-title {
+  justify-content: center;
+  flex-direction: column;
+  font-size: 25px;
+  text-align: center;
+  border: 2px;
+  margin: 50px auto;
+  background-color: #FF6B5A; /* Sunset Coral */;
+  color: #FFFFFF; /* Soft White */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  font-family: 'Amarante', cursive;
+}
+
+.center-cards{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  padding:8px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #4B4B4B;
+  border-radius: 5px;
+}
+
+.travel-text{
+  display: flex;
+  justify-content: center;
+  align-items: column;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px;
+ 
+}
+
+.travel-text h1 {
+  font-size: 50px;
+  color: #121212; 
+  background-color: #FF6B5A;
+  font-family: 'Amarante', cursive;
+   border: 3px solid #4B4B4B;
+}
+.travel-text p {
+  font-size: 25px;
+  color: #121212; /* Jet Black */
+  background-color: #F4B942;
+  border: 3px solid #4B4B4B;
+  padding: 10px;
+}
+
+#logo img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+#greece-flag img{
+  width: 100px;
+}
+
+#japan-flag img{
+  width: 100px;
+}
+
+#about-us img{
+  width: 55px;
+  height: 55px;
+}
+#about-us{
+  margin-right: 10px;
+}
+
+.map iframe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  width: 400px;
+  height: 300px;
+  border: #4B4B4B solid 2px;
+  border-radius: 10px;
+}
+
+#reviews h2{
+text-decoration: underline;
+font-size: 30px
+}
+
+#reviews p{
+  font-style: italic;
+}
+
+.about-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px auto;
+  background-color: #FF6B5A; /* Sunset Coral */
+  color: #FFFFFF; /* Soft White */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  font-size: 38px;
+  font-family: 'Amarante', cursive;
+  border: #4B4B4B solid 2px;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px auto;
+  background-color: #F4B942; /* Golden Sand */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  font-size: 20px;
+  color: #121212; /* Jet Black */
+  border: #4B4B4B solid 2px;
+}
+
+.timetable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+  background-color: #E6E6E6; /* Mist Grey */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 10px;
+  max-width: 800px;
+  font-size: 25px;
+}
+
+td, th {
+  border: 1px solid #4B4B4B; /* Graphite Grey */
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #F4B942; /* Golden Sand */
+}
+
+.upcoming{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+  background-color: #FF6B5A; /* Sunset Coral */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  font-size: 25px;
+  color: #FFFFFF; /* Soft White */
+}
+.upcoming li {
+  margin: 10px 0;
+}
+.about-boxes{
+  display: flex;
+}
